@@ -1,5 +1,6 @@
-Constrained Set Visualization
+Constrained Set Visualization 
 Un algoritmo avanzato per la visualizzazione di insiemi di punti con posizioni vincolate, sviluppato come progetto di tesi presso l'Università degli Studi di Perugia.
+
 📋 Descrizione
 Questo progetto affronta il problema della Constrained Set Visualization: dato un insieme di punti nel piano, ciascuno appartenente a uno o più insiemi, l'obiettivo è visualizzare i diversi gruppi connettendo con curve o racchiudendo in regioni chiuse tutti i punti di ciascun insieme, mantenendo la visualizzazione chiara e leggibile.
 Caratteristiche Principali
@@ -18,6 +19,7 @@ Linguistica computazionale: identificazione di relazioni tra parole correlate
 Data analysis: esplorazione visiva di dataset con proprietà multiple
 
 🏗️ Architettura
+
 Il sistema si compone di una pipeline algoritmica in due fasi:
 1. Algoritmo Linear Layout
 
@@ -35,6 +37,7 @@ Ottimizzazione dell'area occupata
 Point-set embedding finale
 
 Complessità: O(n³ · m³) nel caso peggiore, dove n = numero nodi, m = numero colori/insiemi
+
 🛠️ Tecnologie
 
 Java con librerie JFC/Swing
@@ -43,6 +46,7 @@ Algoritmi di graph drawing e point-set embedding
 Tecniche di visualizzazione ispirate a Kelp Diagrams e LineSets
 
 📦 Struttura del Progetto
+
 src/
 ├── algorithm/          # Pipeline algoritmica principale
 │   ├── BookEmbedding  # Creazione linear layout
@@ -55,7 +59,9 @@ src/
 └── utilities/         # Funzioni di supporto
     ├── ReadTextFile, WriteTextFile
     └── Assets, AbsolutePath
+
 🚀 Come Usare
+
 Prerequisiti
 
 Java JDK 8 o superiore
@@ -75,6 +81,7 @@ Drag mouse: sposta la visualizzazione
 Checkbox colori: mostra/nascondi insiemi specifici
 
 📊 Risultati Sperimentali
+
 I test condotti hanno dimostrato:
 
 ✅ Planarità elevata anche con molti insiemi (fino a 10 colori)
@@ -91,11 +98,13 @@ Rapporto bend/archi
 Numero di incroci
 
 🎓 Contesto Accademico
+
 Tesi di Laurea Triennale in Ingegneria Informatica ed Elettronica
 Università degli Studi di Perugia (UNIPG)
 Anno Accademico: 2022-2023
 Relatore: Prof. Emilio Di Giacomo
 Votazione: 97/110
+
 🔮 Sviluppi Futuri
 
  Ottimizzazione algoritmica per migliorare l'efficienza
@@ -105,6 +114,7 @@ Votazione: 97/110
  Supporto per dataset di dimensioni maggiori
 
 📚 Riferimenti
+
 Il progetto si basa su tecniche avanzate di visualizzazione come:
 
 Kelp Diagrams e KelpFusion
@@ -113,6 +123,7 @@ Book Embedding Theory
 Point-Set Embedding Algorithms
 
 📄 Licenza
+
 Progetto accademico - Università degli Studi di Perugia
 👤 Autore
 Francesco Mancinelli
